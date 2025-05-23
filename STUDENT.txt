@@ -1,2 +1,2 @@
-APP_URL=<url_aplikasi>
+APP_URL=<https://jocular-frangollo-4ea7f4.netlify.app/>
 MAP_SERVICE_API_KEY=<0ZttLfXyTTfQ4Mp5XAsw>
