@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::view-transition-old(page) {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+::view-transition-new(page) {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1000ms ease, transform 1000ms ease;
+}
+
+#main-content {
+  view-transition-name: page;
+}
+
+header,
+footer {
+  view-transition-name: none !important;
+}
+
+.login-form_do-not-have-account {
+  text-align: center;
+}
