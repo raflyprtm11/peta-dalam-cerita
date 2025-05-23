@@ -1,8 +1,0 @@
-[build]
-  publish = "public"   # folder hasil build, sesuaikan dengan projectmu
-  functions = "netlify/functions"  # folder fungsi serverless
-
-[[redirects]]
-  from = "/api/login"
-  to = "/.netlify/functions/login"
-  status = 200
